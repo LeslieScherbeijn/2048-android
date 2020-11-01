@@ -1,4 +1,4 @@
-language: androi
+language: android
 dist: trusty
 
 android:

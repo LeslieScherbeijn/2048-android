@@ -60,8 +60,17 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    testOptions.unitTests.all {
+        testLogging {
+            events 'passed', 'failed', 'skipped',  'standardError', 'standardOut'
+        }
+    }
+    lintOptions {
+        textReport = true
+    }
 }
 
 dependencies {
     implementation 'de.cketti.library.changelog:ckchangelog-legacy-dialog:2.0.0-SNAPSHOT'
+    implementation 'junit:junit:4.13'
 }
