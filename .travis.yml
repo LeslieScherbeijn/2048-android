@@ -22,7 +22,7 @@ deploy:
   provider: releases
   api_key:
     secure: YA0m405LGSuCrmR2yvs9Eqkezeip6mB12FQ+Am0DDhj8HbnTeXRoCBFYdY+5xXj07gMLn25PgnJtHPgt45rCIa+5vO8EI9Q1qi4DDY0v2fg9OL9EgMqQds84v9135mMz/9f+8m/v7erK/rv5xVifSinjS7HsR/vYDdy8gYGjistK8xzMfP1AlJFla4rcMVCQ5QrXGiIPWJ7NArJeEuzAuCkeIFccg3L5Dv6OXy4gr9EZL2wvCR3oSa2Q8wCZWSAGIUiO48RE+mqWJyo1UBIEfH+cw6du1kj8KpVON6yzGjjTMJCd9fHMtnoxkuCLdbuDIbOC6GatLbJgJXNgI8VNmGVpY1k0MkaceLVxyrC2Vd4fJCsRooKO1YXcGDbogv/RzR9ZVOUcO5Ob4LtIkypPL/5DFhpX2R/v5tMW5lfSxFg59PLB6d/uA2qohcUpb3BKPj8hpKtGRziG6FS5o+LEopcwLQJlgFs69wi+aWUqCEa8GYcErC5+bgD2uXUvgDxdm6ogFdGCZmEZOf7HcTAhFHvO7xgzT57XZ1xN7wNK57CAXRnUdBua8En61Vmw9nIjsxbmw8JmzSPS91eunVkupz0SGLJYYIaWoeVNepdC03xTI+cjpaDAQhG1MwrSiIE+3Y8YgmsnlLf39W/8OjHaER7vHC3bH+c+ABuIexgAW5o=
-  file: '/home/travis/build/LeslieScherbeijn/2048-Android/build/outputs/apk/release/*'
+  file: '/home/travis/build/LeslieScherbeijn/2048-android/build/outputs/apk/release/*'
   file_glob: true
   overwrite: true
   on:
